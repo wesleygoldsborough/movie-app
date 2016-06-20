@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="movie-form">
+        <button id="new-movie-btn">Add New Movie</button>
+        <form name="newMovieForm" id="newMovieForm" class="hide">
+            <input type="text" placeholder="Movie Title" name="movieTitle" id="movieTitle" />
+            <br />
+            <input type="text" placeholder="Running Time" name="runningTime" id="runningTime" />
+            <br />
+            <input type="text" placeholder="Year" name="year" id="year" />
+            <br />
+            <div id="genre">
+                <input type="radio" name="genre" value="comedy" /> comedy
+                <br />
+                <input type="radio" name="genre" value="drama" /> drama
+                <br />
+                <input type="radio" name="genre" value="horror" /> horror
+            </div>
+            <textarea placeholder="Description" name="desc" id="desc"></textarea>
+            <br />
+            <input id="submit" type="submit" value="Submit"/>
+        </form>
+    </div>
+    <div id="movie-list-parent">
+        <ul id="movie-list">
+        </ul>
+    </div>
+    <div id="movieDetails" class="hide">
+      <h1 id="movie-title">MOVIE TITLE</h1>
+      <h3 id="time-year">Running Time: 1 Hour 23 Minutes | Year: 1999</h3>
+      <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ultricies lectus. Curabitur laoreet pretium pulvinar. Etiam tortor est, tincidunt vitae aliquam eget, bibendum sed felis. Sed vestibulum massa sit amet felis finibus, eget porta risus pellentesque. Cras eu fringilla purus, id placerat nisl. In congue nisi placerat, sollicitudin eros vel, pharetra orci. Fusce vitae sapien elementum augue fermentum porta. Vestibulum nec lobortis elit, ut ultricies mi. In eu dolor sit amet orci semper malesuada.</p>
+    </div>
+    <script type="text/javascript" src="js/movie.js"></script>
+    <script type="text/javascript" src="js/helpers.js"></script>
+    <script type="text/javascript" src="js/movieapp.js"></script>
+</body>
+
+</html>
