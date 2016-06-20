@@ -13,7 +13,7 @@ button,
   border: none;
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
   border-radius: 10px;
   color: white;
   margin: 10px 0px;
@@ -36,24 +36,7 @@ textarea {
   padding:15px;
   margin-bottom: 5px;
   font-family: 'Lato', sans-serif;
-}
-
-#movie-form,
-#movie-list-parent {
-  float: left;
-}
-
-#genre {
-  margin-bottom: 10px;
-}
-
-#cancel {
-  background: #ce3538;
-    margin-left:5px;
-}
-
-#cancel:hover {
-  background: #b22628;
+  width: 100%;
 }
 
 .hide {
@@ -63,4 +46,26 @@ textarea {
 #movieDetails {
   border: 1px solid #ddd;
   padding: 30px;
+}
+
+.header-bar {
+  background-color: #eee;
+}
+
+#movie-list {
+  font-size: 26px;
+  color: #77b52e;
+  list-style: none;
+  list-style-position: inside;
+  padding-left: 0px;
+}
+
+#movie-list li {
+  border: 1px solid #eee;
+  margin: 10px 0px;
+  padding:20px;
+}
+
+h1 {
+  margin-top: 10px;
 }
