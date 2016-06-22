@@ -195,6 +195,9 @@
 
             });
         }
+        else {
+          return;
+        }
     });
 
     //listen for check in
