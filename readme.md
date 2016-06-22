@@ -8,6 +8,6 @@
 <li>This movie app contains a preset movie library and allows you to check out and return movies.</li>
 <li>To simulate the concept that days have passed between movie check out and return, a random number of days gets assigned to each movie being returned.</li>
 <li>Allows you to add new movies to the library.</li>
-<li>Resorts the library alphabetically every time a new movie is added.</li>
+<li>Sorts the movie library alphabetically every time a new movie is added.</li>
 <li>Provides authentication for form fields and alerts the user to incorrectly entered or omitted information.</li>
 </ul>
