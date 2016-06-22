@@ -1,7 +1,7 @@
 <h1>Movie App</h1>
 
 <h3>WHAT IS THIS?</h3>
-<p>This is my final project for a Beginner Javascript course I took at www.geekwiseacademy.com.</p>
+<p>This is the final project for a Beginner Javascript course I took at www.geekwiseacademy.com.</p>
 
 <h3>WHAT DOES IT DO?</h3>
 <ul>
