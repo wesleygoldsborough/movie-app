@@ -186,17 +186,17 @@
     //listen for check out
     document.getElementById('check-out').addEventListener('click', function(ev) {
         var confirmCheckOut = confirm("The fee for this movie is $" + dailyRate + " per day. Is that cool?");
-        if (confirmCheckOut = true) {
-            movieIndex = ev.target.parentNode.parentNode.getAttribute(['data-MovieIdx']);
-            movieArray.forEach(function(movie) {
-                if (movieIndex == movieArray.indexOf(movie)) {
-                    movie.checkOut();
-                }
-
-            });
+        if (confirmCheckOut === false) {
+            return;
         }
         else {
-          return;
+          movieIndex = ev.target.parentNode.parentNode.getAttribute(['data-MovieIdx']);
+          movieArray.forEach(function(movie) {
+              if (movieIndex == movieArray.indexOf(movie)) {
+                  movie.checkOut();
+              }
+
+          });
         }
     });
 
