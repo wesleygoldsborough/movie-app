@@ -9,5 +9,5 @@
 <li>To simulate the concept that days have passed between movie check out and return, a random number of days gets assigned to each movie being returned.</li>
 <li>Allows you to add new movies to the library.</li>
 <li>Sorts the movie library alphabetically every time a new movie is added.</li>
-<li>Provides authentication for form fields and alerts the user to incorrectly entered or omitted information.</li>
+<li>Provides validation for form fields and alerts the user to incorrectly entered or omitted information.</li>
 </ul>
